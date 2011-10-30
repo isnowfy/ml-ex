@@ -16,7 +16,7 @@ p = zeros(m, 1);
 %
 
 
-
+p(find(X*theta>=0))=1;
 
 
 
